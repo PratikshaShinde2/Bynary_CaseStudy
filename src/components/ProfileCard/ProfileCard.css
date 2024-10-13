@@ -1,0 +1,22 @@
+.profile-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    background-color: #ffeef8; 
+}
+
+.profile-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.profile-card h2 {
+    margin: 0 0 8px 0;
+}
+
+.profile-card p {
+    margin: 4px 0;
+}

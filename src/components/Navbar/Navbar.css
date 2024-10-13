@@ -1,0 +1,84 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 2rem;
+    height: 100vh;
+    color: white;
+    position: relative;
+  }
+  
+  .navbar-logo h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: white;
+  }
+  
+  .profile-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 300px;
+    overflow-y: auto;
+    flex-grow: 1;
+  }
+  
+  .profile-btn {
+    background-color: #bdbdbe;
+    color: rgb(19, 18, 18);
+    border: none;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .profile-btn:hover {
+    background-color: #9b9b9b;
+    transform: scale(1.05);
+  }
+  
+  .profile-btn:active {
+    background-color: #ebebeb;
+    transform: scale(0.98);
+  }
+  
+ .admin-panel-link {
+    position: absolute;
+    bottom: 5rem;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .admin-btn {
+    background-color: #e2dfdf;
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+  }
+  
+  .admin-btn:hover {
+    background-color: #e57373;
+    transform: scale(1.05);
+  }
+  
+  .admin-btn:active {
+    background-color: #b9b7b7;
+    transform: scale(0.98);
+  }
+  
